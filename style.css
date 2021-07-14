@@ -1,0 +1,199 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #EFEFEF;
+}
+/************** header part start**************/
+
+.header{
+    background-color: #2D25A0;
+    max-width: 1440px; 
+    height: auto;
+}
+.header_continer{
+    width: 1160px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 153px 0px 86px 0px;
+}
+.header_title{
+    width: 485px;
+}
+.header_title h1{
+    color: #fff;
+    font-size: 64px;
+    text-align:left;
+    margin-bottom: 20px;
+}
+.header_button span{
+    background-color: #E02C6D;
+    padding: 10px 30px;
+}
+.header_button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px; 
+}
+.header_button span:hover{
+    background-color: #d31e5a;
+    font-weight:bold;
+}
+.banner:hover{
+    transform: scale(1.1);
+    transition: transform 2s ease-in-out;  
+}
+.banner_img{
+    overflow: hidden;
+    margin-left: 102px;
+    width: 556.01px;
+    height: 438px;
+    
+}
+/************** header part end**************/
+
+/******************player start******************/
+
+.container{
+    width: 1050px;
+    margin: auto; 
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    margin-top: 70px;
+    margin-bottom: 100px;  
+}
+.player{
+    width: 300px;
+    height: auto;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0px 0px 100px #efefef80;
+    margin-bottom: 10px;
+}
+.player h2{
+    font-size: 28px;
+    font-weight: 700px;
+}
+.player p{
+    width: 300px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color: #6C6C6C;
+}
+.player_img{
+    width: 300px;
+    height: 256px;
+}
+
+/******************player end******************/
+
+
+/*********************footer start************************/
+
+
+.footer_contain{
+    margin-bottom: 10px;
+}
+.footer_contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container_logo{
+    Width: 483.87px; 
+    Height: 110px; 
+}
+.social{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.social .social_icon{
+    font-size: 20px;
+    margin-left: 14px;
+    color: gray;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.144)
+    
+}
+/******************footer end********************/
+
+/*************************************************
+                midea query start
+**************************************************/
+
+@media only screen and (max-width:688px) {
+ /******************midea query header **********************/
+ .header{
+    background-color: #2D25A0;
+    max-width: 100%;   
+}
+.header_continer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 112px;
+    background-color: #2D25A0;
+}
+.header_title{
+    width: 300px;
+    margin-bottom: 110px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+} 
+.header_title h1{
+    font-size: 36px;
+    width:275px ;
+    height: 138px;
+    margin-right: 66px;   
+}
+.header_title_1{
+    width: 266px;  
+}
+.header_button{
+    margin-top: 30px;
+}
+.banner_img{
+    margin-left: 19px;
+    margin-right: 12px;
+    width: 329px;
+    height: 259.17px;
+    overflow: hidden;
+}
+/****************midea query header end*****************/
+
+/*********midea query player start**********/
+.container{
+    width: 100%;
+    padding: 0px 15px 0 15px;;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 24px;
+    margin-top: 47px;
+    margin-bottom: 43px;
+    padding-right:10px ;
+}
+/*********midea query player start**********/
+
+/*****************midea query footer start******************/
+.footer_contain{
+    text-align: center;
+    width: 315px;   
+}
+.container_logo{
+    Width: 250px; 
+    Height: 60px; 
+}
+/***************** midea query footer end******************/
+}
+/********************midea query end****************************/
